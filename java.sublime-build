@@ -1,0 +1,13 @@
+{
+	"shell_cmd": "javac $file && java $file_base_name",
+	"variants":
+    [
+    	{
+            "name": "Run in Terminal",
+            "linux": {
+                "shell_cmd": "javac \"${file}\" && gnome-terminal -e 'bash -c \"java ${file_base_name} && echo && echo Press ENTER to continue && read line && exit\"'", // for gnome-terminal
+            },
+            "shell": true,
+        }
+    ]
+}
