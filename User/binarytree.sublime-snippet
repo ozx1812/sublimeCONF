@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+struct Node
+{
+	int key;
+	Node *left, *right;
+	Node(int x) {
+		key = x;
+		left = right = NULL;
+	}
+};
+
+Node* newNode(int key) {
+	Node* temp = new Node(key);
+	return temp;
+}
+
+void inorder(Node* temp) {
+	if (!temp)
+		return;
+	inorder(temp->left);
+	cout << temp->key << " ";
+	inorder(temp->right);
+}
+
+void preorder(Node* temp) {
+	if (!temp)
+		return;
+	cout << temp->key << " ";
+	preorder(temp->left);
+	preorder(temp->right);
+}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>binarytree.tab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cpp</scope>
+</snippet>

@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Anaconda",
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Comment-Snippets",
+		"Competitive Programming",
+		"Console Wrap",
+		"CPP Competitive Programming Snippets",
+		"EasyClangComplete",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Completions",
+		"JavaScript Refactor",
+		"JsPrettier",
+		"LoremIpsum",
+		"Material Theme",
+		"Material Theme - White Panels",
+		"Naomi",
+		"Package Control",
+		"Predawn",
+		"Python Debugger",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeGDB",
+		"SublimeLinter",
+		"TerminalView",
+		"TrailingSpaces"
+	]
+}
